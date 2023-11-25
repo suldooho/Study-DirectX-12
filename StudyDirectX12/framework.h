@@ -10,8 +10,7 @@
 #include <windows.h>
 // C 런타임 헤더 파일입니다.
 #include <stdlib.h>
-#include <malloc.h>
-#include <memory.h>
+#include <malloc.h> 
 #include <tchar.h>
 #include <wrl.h>
 #include <memory> 
@@ -30,6 +29,7 @@ using namespace DirectX::PackedVector;
 using Microsoft::WRL::ComPtr;
 
 #include "Helper.h"
+#include "FrameResource.h"
 
 #pragma comment(lib, "d3dcompiler.lib") 
 #pragma comment(lib, "d3d12.lib") 

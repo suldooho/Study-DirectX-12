@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="App.h" />
+    <ClInclude Include="FrameResource.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="Helper.h" />
     <ClInclude Include="Resource.h" />
@@ -136,6 +137,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="App.cpp" />
+    <ClCompile Include="FrameResource.cpp" />
     <ClCompile Include="StudyDirectX12.cpp" />
   </ItemGroup>
   <ItemGroup>
